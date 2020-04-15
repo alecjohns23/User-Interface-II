@@ -135,3 +135,65 @@ h1,h2{
     align-items: center;
     padding: 5%;
 }
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.email p{
+    font-size: 150%;
+}
+
+.insta{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.insta a{
+    text-decoration: none;
+    color: grey;
+    font-size: 150%;
+}
+
+.insta a:hover{
+    color: black;
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.facebook a{
+    font-size: 150%;
+    text-decoration: none;
+    color: grey;
+}
+
+.facebook a:hover{
+    color: black;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.mail p{
+    font-size: 150%;
+}
+
+footer p{
+    text-align: center;
+}
