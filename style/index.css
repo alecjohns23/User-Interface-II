@@ -62,3 +62,34 @@ h1,h2{
     display: flex;
     flex-direction: row;
 }
+
+.proj-img{
+    display: flex;
+    align-items: center;
+    
+}
+
+.proj-img img{
+    width: 60%;
+    margin-left: 15%;
+}
+
+.row1 img{
+    opacity: .6;
+    transition: 0.3s;
+    border: 5px groove grey;
+}
+
+.row1 img:hover{
+   opacity: 1;
+}
+
+.row2 img{
+    opacity: .6;
+    transition: 0.3s;
+    border: 5px groove grey;
+}
+
+.row2 img:hover{
+   opacity: 1;
+}
