@@ -43,7 +43,7 @@ body{
 }
 
 .body p{
-    padding: 10%;
+    padding: 5%;
 }
 
 .footer p{
@@ -92,4 +92,46 @@ h1,h2{
 
 .row2 img:hover{
    opacity: 1;
+}
+
+.flex1 a{
+    text-decoration: none;
+    color: grey;
+}
+
+.flex1 a:hover{
+    color: black;
+}
+
+.body img{
+    margin-left: 12%;
+}
+
+.first-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.second-about{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.third-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.fourth-about{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
 }
